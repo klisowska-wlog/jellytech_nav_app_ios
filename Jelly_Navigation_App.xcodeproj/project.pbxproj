@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		283409F6292A3D75006E7809 /* Jelly_Navigation_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283409F5292A3D75006E7809 /* Jelly_Navigation_AppApp.swift */; };
-		283409F8292A3D75006E7809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283409F7292A3D75006E7809 /* ContentView.swift */; };
+		283409F6292A3D75006E7809 /* Jelly_Navigation_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283409F5292A3D75006E7809 /* Jelly_Navigation_App.swift */; };
+		283409F8292A3D75006E7809 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283409F7292A3D75006E7809 /* NavigationView.swift */; };
 		283409FA292A3D78006E7809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283409F9292A3D78006E7809 /* Assets.xcassets */; };
 		283409FD292A3D78006E7809 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283409FC292A3D78006E7809 /* Preview Assets.xcassets */; };
+		28340A04292A3EC4006E7809 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28340A03292A3EC4006E7809 /* SearchView.swift */; };
+		28340A06292A3F6A006E7809 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28340A05292A3F6A006E7809 /* ColorUtils.swift */; };
+		28EDD40D2933701C00C198CA /* NavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDD40C2933701C00C198CA /* NavigationModel.swift */; };
+		28EDD40F2933707600C198CA /* NavigationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDD40E2933707600C198CA /* NavigationService.swift */; };
+		28EDD4112933770F00C198CA /* ModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDD4102933770F00C198CA /* ModelProvider.swift */; };
+		28EDD4132933778100C198CA /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDD4122933778100C198CA /* ServiceProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		283409F2292A3D75006E7809 /* Jelly_Navigation_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jelly_Navigation_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		283409F5292A3D75006E7809 /* Jelly_Navigation_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jelly_Navigation_AppApp.swift; sourceTree = "<group>"; };
-		283409F7292A3D75006E7809 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		283409F5292A3D75006E7809 /* Jelly_Navigation_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jelly_Navigation_App.swift; sourceTree = "<group>"; };
+		283409F7292A3D75006E7809 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		283409F9292A3D78006E7809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283409FC292A3D78006E7809 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28340A03292A3EC4006E7809 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = Views/SearchView.swift; sourceTree = "<group>"; };
+		28340A05292A3F6A006E7809 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorUtils.swift; path = Utils/ColorUtils.swift; sourceTree = "<group>"; };
+		28EDD40C2933701C00C198CA /* NavigationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModel.swift; sourceTree = "<group>"; };
+		28EDD40E2933707600C198CA /* NavigationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationService.swift; sourceTree = "<group>"; };
+		28EDD4102933770F00C198CA /* ModelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProvider.swift; sourceTree = "<group>"; };
+		28EDD4122933778100C198CA /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		28EDD4142933867800C198CA /* Jelly-Navigation-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Jelly-Navigation-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +64,17 @@
 		283409F4292A3D75006E7809 /* Jelly_Navigation_App */ = {
 			isa = PBXGroup;
 			children = (
-				283409F5292A3D75006E7809 /* Jelly_Navigation_AppApp.swift */,
-				283409F7292A3D75006E7809 /* ContentView.swift */,
+				28EDD4142933867800C198CA /* Jelly-Navigation-App-Info.plist */,
+				283409F5292A3D75006E7809 /* Jelly_Navigation_App.swift */,
+				283409F7292A3D75006E7809 /* NavigationView.swift */,
 				283409F9292A3D78006E7809 /* Assets.xcassets */,
 				283409FB292A3D78006E7809 /* Preview Content */,
+				28340A05292A3F6A006E7809 /* ColorUtils.swift */,
+				28EDD4102933770F00C198CA /* ModelProvider.swift */,
+				28340A03292A3EC4006E7809 /* SearchView.swift */,
+				28EDD40C2933701C00C198CA /* NavigationModel.swift */,
+				28EDD40E2933707600C198CA /* NavigationService.swift */,
+				28EDD4122933778100C198CA /* ServiceProvider.swift */,
 			);
 			path = Jelly_Navigation_App;
 			sourceTree = "<group>";
@@ -137,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				283409F8292A3D75006E7809 /* ContentView.swift in Sources */,
-				283409F6292A3D75006E7809 /* Jelly_Navigation_AppApp.swift in Sources */,
+				283409F8292A3D75006E7809 /* NavigationView.swift in Sources */,
+				28EDD40F2933707600C198CA /* NavigationService.swift in Sources */,
+				28EDD4112933770F00C198CA /* ModelProvider.swift in Sources */,
+				28340A04292A3EC4006E7809 /* SearchView.swift in Sources */,
+				28EDD4132933778100C198CA /* ServiceProvider.swift in Sources */,
+				28EDD40D2933701C00C198CA /* NavigationModel.swift in Sources */,
+				283409F6292A3D75006E7809 /* Jelly_Navigation_App.swift in Sources */,
+				28340A06292A3F6A006E7809 /* ColorUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +290,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Jelly_Navigation_App/Preview Content\"";
 				DEVELOPMENT_TEAM = VZPP4CZ4VC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jelly-Navigation-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,15 +320,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Jelly_Navigation_App/Preview Content\"";
 				DEVELOPMENT_TEAM = VZPP4CZ4VC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jelly-Navigation-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
