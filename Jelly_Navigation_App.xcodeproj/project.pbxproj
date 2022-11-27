@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283409F6292A3D75006E7809 /* Jelly_Navigation_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283409F5292A3D75006E7809 /* Jelly_Navigation_App.swift */; };
+		283409FA292A3D78006E7809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283409F9292A3D78006E7809 /* Assets.xcassets */; };
+		283409FD292A3D78006E7809 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283409FC292A3D78006E7809 /* Preview Assets.xcassets */; };
+		28D52B3C29338ED900DC9FFD /* NavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B3B29338ED900DC9FFD /* NavigationModel.swift */; };
+		28D52B4729338F1400DC9FFD /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B3E29338F1400DC9FFD /* ColorUtils.swift */; };
+		28D52B4829338F1400DC9FFD /* ActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4129338F1400DC9FFD /* ActionButtonStyle.swift */; };
+		28D52B4929338F1400DC9FFD /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4229338F1400DC9FFD /* NavigationView.swift */; };
+		28D52B4A29338F1400DC9FFD /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4429338F1400DC9FFD /* ServiceProvider.swift */; };
+		28D52B4B29338F1400DC9FFD /* ModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4529338F1400DC9FFD /* ModelProvider.swift */; };
+		28D52B4C29338F1400DC9FFD /* NavigationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4629338F1400DC9FFD /* NavigationService.swift */; };
+		28D52B4E2933929E00DC9FFD /* JellyFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4D2933929E00DC9FFD /* JellyFooter.swift */; };
+		28D52B52293396C700DC9FFD /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B51293396C700DC9FFD /* SFSafariViewWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		283409F2292A3D75006E7809 /* Jelly_Navigation_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jelly_Navigation_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		283409F5292A3D75006E7809 /* Jelly_Navigation_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jelly_Navigation_App.swift; sourceTree = "<group>"; };
+		283409F9292A3D78006E7809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		283409FC292A3D78006E7809 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28D52B3B29338ED900DC9FFD /* NavigationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationModel.swift; sourceTree = "<group>"; };
+		28D52B3E29338F1400DC9FFD /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		28D52B4129338F1400DC9FFD /* ActionButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonStyle.swift; sourceTree = "<group>"; };
+		28D52B4229338F1400DC9FFD /* NavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		28D52B4429338F1400DC9FFD /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		28D52B4529338F1400DC9FFD /* ModelProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProvider.swift; sourceTree = "<group>"; };
+		28D52B4629338F1400DC9FFD /* NavigationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationService.swift; sourceTree = "<group>"; };
+		28D52B4D2933929E00DC9FFD /* JellyFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyFooter.swift; sourceTree = "<group>"; };
+		28D52B51293396C700DC9FFD /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
+		28EDD4142933867800C198CA /* Jelly-Navigation-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Jelly-Navigation-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		283409EF292A3D75006E7809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283409E9292A3D75006E7809 = {
+			isa = PBXGroup;
+			children = (
+				283409F4292A3D75006E7809 /* Jelly_Navigation_App */,
+				283409F3292A3D75006E7809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		283409F3292A3D75006E7809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				283409F2292A3D75006E7809 /* Jelly_Navigation_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		283409F4292A3D75006E7809 /* Jelly_Navigation_App */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B4329338F1400DC9FFD /* Services */,
+				28D52B3D29338F1400DC9FFD /* Utils */,
+				28D52B3F29338F1400DC9FFD /* Views */,
+				28D52B3A29338ED900DC9FFD /* Models */,
+				28EDD4142933867800C198CA /* Jelly-Navigation-App-Info.plist */,
+				283409F5292A3D75006E7809 /* Jelly_Navigation_App.swift */,
+				283409F9292A3D78006E7809 /* Assets.xcassets */,
+				283409FB292A3D78006E7809 /* Preview Content */,
+			);
+			path = Jelly_Navigation_App;
+			sourceTree = "<group>";
+		};
+		283409FB292A3D78006E7809 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				283409FC292A3D78006E7809 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28D52B3A29338ED900DC9FFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B3B29338ED900DC9FFD /* NavigationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28D52B3D29338F1400DC9FFD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B3E29338F1400DC9FFD /* ColorUtils.swift */,
+				28D52B51293396C700DC9FFD /* SFSafariViewWrapper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		28D52B3F29338F1400DC9FFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B4029338F1400DC9FFD /* Controls */,
+				28D52B4229338F1400DC9FFD /* NavigationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28D52B4029338F1400DC9FFD /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B4129338F1400DC9FFD /* ActionButtonStyle.swift */,
+				28D52B4D2933929E00DC9FFD /* JellyFooter.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		28D52B4329338F1400DC9FFD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B4429338F1400DC9FFD /* ServiceProvider.swift */,
+				28D52B4529338F1400DC9FFD /* ModelProvider.swift */,
+				28D52B4629338F1400DC9FFD /* NavigationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		283409F1292A3D75006E7809 /* Jelly_Navigation_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28340A00292A3D78006E7809 /* Build configuration list for PBXNativeTarget "Jelly_Navigation_App" */;
+			buildPhases = (
+				283409EE292A3D75006E7809 /* Sources */,
+				283409EF292A3D75006E7809 /* Frameworks */,
+				283409F0292A3D75006E7809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jelly_Navigation_App;
+			productName = Jelly_Navigation_App;
+			productReference = 283409F2292A3D75006E7809 /* Jelly_Navigation_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		283409EA292A3D75006E7809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					283409F1292A3D75006E7809 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 283409ED292A3D75006E7809 /* Build configuration list for PBXProject "Jelly_Navigation_App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 283409E9292A3D75006E7809;
+			productRefGroup = 283409F3292A3D75006E7809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				283409F1292A3D75006E7809 /* Jelly_Navigation_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		283409F0292A3D75006E7809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283409FD292A3D78006E7809 /* Preview Assets.xcassets in Resources */,
+				283409FA292A3D78006E7809 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		283409EE292A3D75006E7809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D52B4A29338F1400DC9FFD /* ServiceProvider.swift in Sources */,
+				28D52B4729338F1400DC9FFD /* ColorUtils.swift in Sources */,
+				28D52B4B29338F1400DC9FFD /* ModelProvider.swift in Sources */,
+				28D52B52293396C700DC9FFD /* SFSafariViewWrapper.swift in Sources */,
+				28D52B4C29338F1400DC9FFD /* NavigationService.swift in Sources */,
+				28D52B4E2933929E00DC9FFD /* JellyFooter.swift in Sources */,
+				28D52B4829338F1400DC9FFD /* ActionButtonStyle.swift in Sources */,
+				28D52B4929338F1400DC9FFD /* NavigationView.swift in Sources */,
+				283409F6292A3D75006E7809 /* Jelly_Navigation_App.swift in Sources */,
+				28D52B3C29338ED900DC9FFD /* NavigationModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		283409FE292A3D78006E7809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		283409FF292A3D78006E7809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28340A01292A3D78006E7809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jelly_Navigation_App/Preview Content\"";
+				DEVELOPMENT_TEAM = VZPP4CZ4VC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jelly-Navigation-App-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Navigation.Jelly-Navigation-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28340A02292A3D78006E7809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jelly_Navigation_App/Preview Content\"";
+				DEVELOPMENT_TEAM = VZPP4CZ4VC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jelly-Navigation-App-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Navigation.Jelly-Navigation-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283409ED292A3D75006E7809 /* Build configuration list for PBXProject "Jelly_Navigation_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283409FE292A3D78006E7809 /* Debug */,
+				283409FF292A3D78006E7809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28340A00292A3D78006E7809 /* Build configuration list for PBXNativeTarget "Jelly_Navigation_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28340A01292A3D78006E7809 /* Debug */,
+				28340A02292A3D78006E7809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 283409EA292A3D75006E7809 /* Project object */;
+}
