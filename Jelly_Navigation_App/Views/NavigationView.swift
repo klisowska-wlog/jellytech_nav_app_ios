@@ -10,6 +10,7 @@ import SafariServices
 
 struct NavigationView: View {
     @ObservedObject private var model: NavigationModel = ModelProvider.inst().navigationModel
+    @State private var showBrowser: Bool = false
     
     @Environment(\.openURL) var openURL
     
@@ -32,11 +33,23 @@ struct NavigationView: View {
                     }
                 }
                 .buttonStyle(ActionButtonStyle())
+                
+                Button("Navigate in app") {
+                    print("Go to URL \(self.model.url)")
+                    self.model.saveURL {
+                        print("URL \(self.model.url) valid. Opening in browser...")
+                        self.showBrowser.toggle()
+                    }
+                }
+                .buttonStyle(ActionButtonStyle())
             }
             
             Spacer()
             JellyFooterView()
         }
+        .fullScreenCover(isPresented: $showBrowser, content: {
+            SFSafariViewWrapper(url: self.model.prepareURL()!)
+        })
     }
 }
 

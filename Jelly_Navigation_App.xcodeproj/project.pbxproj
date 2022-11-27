@@ -18,6 +18,7 @@
 		28D52B4B29338F1400DC9FFD /* ModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4529338F1400DC9FFD /* ModelProvider.swift */; };
 		28D52B4C29338F1400DC9FFD /* NavigationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4629338F1400DC9FFD /* NavigationService.swift */; };
 		28D52B4E2933929E00DC9FFD /* JellyFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4D2933929E00DC9FFD /* JellyFooter.swift */; };
+		28D52B52293396C700DC9FFD /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B51293396C700DC9FFD /* SFSafariViewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		28D52B4529338F1400DC9FFD /* ModelProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProvider.swift; sourceTree = "<group>"; };
 		28D52B4629338F1400DC9FFD /* NavigationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationService.swift; sourceTree = "<group>"; };
 		28D52B4D2933929E00DC9FFD /* JellyFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyFooter.swift; sourceTree = "<group>"; };
+		28D52B51293396C700DC9FFD /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
 		28EDD4142933867800C198CA /* Jelly-Navigation-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Jelly-Navigation-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				28D52B3E29338F1400DC9FFD /* ColorUtils.swift */,
+				28D52B51293396C700DC9FFD /* SFSafariViewWrapper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				28D52B4A29338F1400DC9FFD /* ServiceProvider.swift in Sources */,
 				28D52B4729338F1400DC9FFD /* ColorUtils.swift in Sources */,
 				28D52B4B29338F1400DC9FFD /* ModelProvider.swift in Sources */,
+				28D52B52293396C700DC9FFD /* SFSafariViewWrapper.swift in Sources */,
 				28D52B4C29338F1400DC9FFD /* NavigationService.swift in Sources */,
 				28D52B4E2933929E00DC9FFD /* JellyFooter.swift in Sources */,
 				28D52B4829338F1400DC9FFD /* ActionButtonStyle.swift in Sources */,
