@@ -8,29 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		283409F6292A3D75006E7809 /* Jelly_Navigation_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283409F5292A3D75006E7809 /* Jelly_Navigation_App.swift */; };
-		283409F8292A3D75006E7809 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283409F7292A3D75006E7809 /* NavigationView.swift */; };
 		283409FA292A3D78006E7809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283409F9292A3D78006E7809 /* Assets.xcassets */; };
 		283409FD292A3D78006E7809 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283409FC292A3D78006E7809 /* Preview Assets.xcassets */; };
-		28340A04292A3EC4006E7809 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28340A03292A3EC4006E7809 /* SearchView.swift */; };
-		28340A06292A3F6A006E7809 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28340A05292A3F6A006E7809 /* ColorUtils.swift */; };
-		28EDD40D2933701C00C198CA /* NavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDD40C2933701C00C198CA /* NavigationModel.swift */; };
-		28EDD40F2933707600C198CA /* NavigationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDD40E2933707600C198CA /* NavigationService.swift */; };
-		28EDD4112933770F00C198CA /* ModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDD4102933770F00C198CA /* ModelProvider.swift */; };
-		28EDD4132933778100C198CA /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDD4122933778100C198CA /* ServiceProvider.swift */; };
+		28D52B3C29338ED900DC9FFD /* NavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B3B29338ED900DC9FFD /* NavigationModel.swift */; };
+		28D52B4729338F1400DC9FFD /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B3E29338F1400DC9FFD /* ColorUtils.swift */; };
+		28D52B4829338F1400DC9FFD /* ActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4129338F1400DC9FFD /* ActionButtonStyle.swift */; };
+		28D52B4929338F1400DC9FFD /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4229338F1400DC9FFD /* NavigationView.swift */; };
+		28D52B4A29338F1400DC9FFD /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4429338F1400DC9FFD /* ServiceProvider.swift */; };
+		28D52B4B29338F1400DC9FFD /* ModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4529338F1400DC9FFD /* ModelProvider.swift */; };
+		28D52B4C29338F1400DC9FFD /* NavigationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4629338F1400DC9FFD /* NavigationService.swift */; };
+		28D52B4E2933929E00DC9FFD /* JellyFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52B4D2933929E00DC9FFD /* JellyFooter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		283409F2292A3D75006E7809 /* Jelly_Navigation_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jelly_Navigation_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		283409F5292A3D75006E7809 /* Jelly_Navigation_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jelly_Navigation_App.swift; sourceTree = "<group>"; };
-		283409F7292A3D75006E7809 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		283409F9292A3D78006E7809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283409FC292A3D78006E7809 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		28340A03292A3EC4006E7809 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = Views/SearchView.swift; sourceTree = "<group>"; };
-		28340A05292A3F6A006E7809 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorUtils.swift; path = Utils/ColorUtils.swift; sourceTree = "<group>"; };
-		28EDD40C2933701C00C198CA /* NavigationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModel.swift; sourceTree = "<group>"; };
-		28EDD40E2933707600C198CA /* NavigationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationService.swift; sourceTree = "<group>"; };
-		28EDD4102933770F00C198CA /* ModelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProvider.swift; sourceTree = "<group>"; };
-		28EDD4122933778100C198CA /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		28D52B3B29338ED900DC9FFD /* NavigationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationModel.swift; sourceTree = "<group>"; };
+		28D52B3E29338F1400DC9FFD /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		28D52B4129338F1400DC9FFD /* ActionButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonStyle.swift; sourceTree = "<group>"; };
+		28D52B4229338F1400DC9FFD /* NavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		28D52B4429338F1400DC9FFD /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		28D52B4529338F1400DC9FFD /* ModelProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProvider.swift; sourceTree = "<group>"; };
+		28D52B4629338F1400DC9FFD /* NavigationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationService.swift; sourceTree = "<group>"; };
+		28D52B4D2933929E00DC9FFD /* JellyFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyFooter.swift; sourceTree = "<group>"; };
 		28EDD4142933867800C198CA /* Jelly-Navigation-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Jelly-Navigation-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -64,17 +66,14 @@
 		283409F4292A3D75006E7809 /* Jelly_Navigation_App */ = {
 			isa = PBXGroup;
 			children = (
+				28D52B4329338F1400DC9FFD /* Services */,
+				28D52B3D29338F1400DC9FFD /* Utils */,
+				28D52B3F29338F1400DC9FFD /* Views */,
+				28D52B3A29338ED900DC9FFD /* Models */,
 				28EDD4142933867800C198CA /* Jelly-Navigation-App-Info.plist */,
 				283409F5292A3D75006E7809 /* Jelly_Navigation_App.swift */,
-				283409F7292A3D75006E7809 /* NavigationView.swift */,
 				283409F9292A3D78006E7809 /* Assets.xcassets */,
 				283409FB292A3D78006E7809 /* Preview Content */,
-				28340A05292A3F6A006E7809 /* ColorUtils.swift */,
-				28EDD4102933770F00C198CA /* ModelProvider.swift */,
-				28340A03292A3EC4006E7809 /* SearchView.swift */,
-				28EDD40C2933701C00C198CA /* NavigationModel.swift */,
-				28EDD40E2933707600C198CA /* NavigationService.swift */,
-				28EDD4122933778100C198CA /* ServiceProvider.swift */,
 			);
 			path = Jelly_Navigation_App;
 			sourceTree = "<group>";
@@ -85,6 +84,50 @@
 				283409FC292A3D78006E7809 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28D52B3A29338ED900DC9FFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B3B29338ED900DC9FFD /* NavigationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28D52B3D29338F1400DC9FFD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B3E29338F1400DC9FFD /* ColorUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		28D52B3F29338F1400DC9FFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B4029338F1400DC9FFD /* Controls */,
+				28D52B4229338F1400DC9FFD /* NavigationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28D52B4029338F1400DC9FFD /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B4129338F1400DC9FFD /* ActionButtonStyle.swift */,
+				28D52B4D2933929E00DC9FFD /* JellyFooter.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		28D52B4329338F1400DC9FFD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				28D52B4429338F1400DC9FFD /* ServiceProvider.swift */,
+				28D52B4529338F1400DC9FFD /* ModelProvider.swift */,
+				28D52B4629338F1400DC9FFD /* NavigationService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,14 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				283409F8292A3D75006E7809 /* NavigationView.swift in Sources */,
-				28EDD40F2933707600C198CA /* NavigationService.swift in Sources */,
-				28EDD4112933770F00C198CA /* ModelProvider.swift in Sources */,
-				28340A04292A3EC4006E7809 /* SearchView.swift in Sources */,
-				28EDD4132933778100C198CA /* ServiceProvider.swift in Sources */,
-				28EDD40D2933701C00C198CA /* NavigationModel.swift in Sources */,
+				28D52B4A29338F1400DC9FFD /* ServiceProvider.swift in Sources */,
+				28D52B4729338F1400DC9FFD /* ColorUtils.swift in Sources */,
+				28D52B4B29338F1400DC9FFD /* ModelProvider.swift in Sources */,
+				28D52B4C29338F1400DC9FFD /* NavigationService.swift in Sources */,
+				28D52B4E2933929E00DC9FFD /* JellyFooter.swift in Sources */,
+				28D52B4829338F1400DC9FFD /* ActionButtonStyle.swift in Sources */,
+				28D52B4929338F1400DC9FFD /* NavigationView.swift in Sources */,
 				283409F6292A3D75006E7809 /* Jelly_Navigation_App.swift in Sources */,
-				28340A06292A3F6A006E7809 /* ColorUtils.swift in Sources */,
+				28D52B3C29338ED900DC9FFD /* NavigationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

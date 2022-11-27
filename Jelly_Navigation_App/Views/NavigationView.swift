@@ -10,29 +10,33 @@ import SafariServices
 
 struct NavigationView: View {
     @ObservedObject private var model: NavigationModel = ModelProvider.inst().navigationModel
+    
     @Environment(\.openURL) var openURL
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Please enter URL:")
-                .bold()
-            TextField("Navigate to...", text: self.$model.url)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
+        VStack(alignment: .center, spacing: 20.0){
+            Spacer()
+            VStack(alignment: .center) {
+                Text("Please enter URL:")
+                    .bold()
+                TextField("Navigate to...", text: self.$model.url)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+            }.padding()
 
-            Button("Navigate") {
-                print("Go to URL \(self.model.url)")
-                self.model.saveURL {
-                    print("URL \(self.model.url) valid. Opening in browser...")
-                    openURL(self.model.prepareURL()!)
+            HStack(alignment: VerticalAlignment.center, spacing: 10.0){
+                Button("Navigate") {
+                    print("Go to URL \(self.model.url)")
+                    self.model.saveURL {
+                        print("URL \(self.model.url) valid. Opening in browser...")
+                        openURL(self.model.prepareURL()!)
+                    }
                 }
+                .buttonStyle(ActionButtonStyle())
             }
-            .contentShape(Rectangle())
-            .buttonBorderShape(.roundedRectangle(radius: 12))
-            .buttonStyle(.borderedProminent)
-            .padding()
-        
-        }.padding()
-
+            
+            Spacer()
+            JellyFooterView()
+        }
     }
 }
 

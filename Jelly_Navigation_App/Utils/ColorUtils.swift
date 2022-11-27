@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct ColorUtils {
-    static let mainBackgroundColor = ColorUtils.buildHexColor(hex: "#F7F8FB")
-    static let mainBackgroundUIColor = ColorUtils.buildHexUIColor(hex: "#F7F8FB")
-    static let subtitleColor = ColorUtils.buildHexColor(hex: "#808080")
+    static let subtitleColor = ColorUtils.buildHexColor(hex: "#959595")
+    static let defaultButtonBackgroundColor = ColorUtils.buildHexColor(hex: "#C61A7A")
     
     static func buildHexColor(hex: String) -> Color {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
